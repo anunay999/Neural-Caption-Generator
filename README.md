@@ -4,8 +4,13 @@ In 2014, researchers from Google released a paper, Show And Tell: A Neural Image
 
 
 A CNN-LSTM Image Caption Architecture source
+
+(https://cdn-media-1.freecodecamp.org/images/1*E90mI7YT9F0J6b9EadxfzA.png)
+
 Using a CNN for image embedding
 A convolutional neural network can be used to create a dense feature vector. This dense vector, also called an embedding, can be used as feature input into other algorithms or networks.
+
+(https://cdn-media-1.freecodecamp.org/images/1*tCeGt4fuK_gX1fh8OSyz1Q.png)
 
 For an image caption model, this embedding becomes a dense representation of the image and will be used as the initial state of the LSTM.
 
@@ -16,6 +21,7 @@ An LSTM is a recurrent neural network architecture that is commonly used in prob
 
 An LSTM consists of three main components: a forget gate, input gate, and output gate. Each of these gates is responsible for altering updates to the cell’s memory state.
 
+(https://cdn-media-1.freecodecamp.org/images/1*J5W8FrASMi93Z81NlAui4w.png)
 
 An unrolled LSTM source
 For a deeper understanding of LSTM’s, visit Chris Olah’s post.
